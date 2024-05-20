@@ -1,0 +1,248 @@
+/*
+CSS template for all pages
+*/
+
+*{
+    font-family: Yu Gothic Light;
+    
+}
+
+body {
+    background-color: #FFFFF0;
+    font-family:  Yu Gothic Light;
+    line-height: 125%;
+    padding: 0px;
+}
+
+#banner {
+    margin-top: 0px;
+    height: 150px;
+    max-width: 100vw;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    background-color: #FFFFF0;
+}
+
+.logo {
+    margin-top: 0px;
+    height: 60px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 23px;
+    background-color: #FFFFF0;
+}
+
+.topnav {
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2px;
+    text-align: center;
+    background-color: #FFFFF0;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: center;
+    color: #000000;
+    text-align: left;
+    padding: 3px 20px;
+    text-decoration: underline;
+    font-size: 20px;
+    width: 115px;
+}
+
+.topnav a:hover {
+    background-color: #F1F1F1;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: black;
+}
+
+#Main {
+    margin-top: 50px;
+    width: 95%;
+    height: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #FFFFF0;
+}
+
+.fade-in-image {
+    height: 420px;
+    animation: fadeIn 3s;
+    float: left;
+    box-shadow: 0 0 5px;
+}
+.imagecontainer{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.imagecontainer2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5px;
+}
+.fade-in-image img, .fade-in-image2 img{
+    height: 100%;
+    max-width: 800px;
+    width: 100%;
+}
+    @keyframes fadeIn {
+       0% { opacity: 0; }
+       100% { opacity: 1; }
+}
+
+.fade-in-image2 {
+    height: 420px;
+    animation: fadeIn 6s;
+    float: right;
+    box-shadow: 0 0 5px;
+}
+
+    @keyframes fadeIn {
+       0% { opacity: 0; }
+       100% { opacity: 1; }
+}
+.containermain{
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.containermain2{
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+@keyframes fadeIn {
+       0% { opacity: 0; }
+       100% { opacity: 1; }
+}
+.imagecontainer img{
+    width: 700px;
+    height: 420px;
+    box-shadow: 0 0 7px;
+}
+.textholdercontainer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.textholdercontainer2 {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.textholdercontainer3 {
+    padding-left: 20px;
+    text-align: left;
+}
+.centertextholder{
+    text-align: center;
+}
+main{
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    float: center;
+    align-items: center;
+    justify-content: center;
+}
+main2{
+    margin-top: 1rem;
+    margin-left: auto;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+.form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    float: center;
+    text-align: left;
+    border-style: groove;
+    border-width: 1px;
+    border-color: black;
+    background-color: #e8e8e8;
+    box-shadow: 0 0 3px;
+    border-radius: 10px 0px 10px 0px;
+}
+.banner{
+    width: 100%;
+    height: 20%;
+    margin-bottom: 10px;
+    padding: 20px 20px 20px 20px;
+    background-color: #e3e3de;
+    border-style: groove;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    border-width: 1px;
+    border-color: black;
+    box-shadow: 0 0 3px;
+    border-radius: 10px 0px 10px 0px;
+}
+.titleinfo{
+    display: flex;
+    flex-direction: column;
+}
+.pic{
+    border-radius: 50%;
+}
+.mapcontainer{
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    box-shadow: 0 0 5px;
+}
+.qual{
+    width: 20%;
+    height: 20%;
+    margin-bottom: 10px;
+    padding: 20px 20px 20px 20px;
+    background-color: #e3e3de;
+    border-style: groove;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    border-width: 1px;
+    border-color: black;
+    box-shadow: 0 0 3px;
+    border-radius: 10px 0px 10px 0px;
+    justify-content: center;
+}
+.containerqual{
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.break{
+    flex-basis: 100%;
+    height: 0;
+  }
